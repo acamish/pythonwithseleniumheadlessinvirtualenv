@@ -8,10 +8,10 @@ from pyvirtualdisplay import Display
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 
-#USE THIS TWO LINES TO RUN PYTHON TEST IN HEADLESS MODE
+#USE THIS TWO LINES TO RUN PYTHON TEST IN HEADLESS MODE(NO BROWSER)
 
-#display = Display(visible=0, size=(800, 600))
-#display.start()
+display = Display(visible=0, size=(800, 600))
+display.start()
 
 # now Firefox will run in a virtual display.
 # you will not see the browser.
