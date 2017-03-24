@@ -1,0 +1,23 @@
+To Start with selenium+python in virtual Enviroment, install below softwares:
+
+On Linux(CentOS)
+
+yum install python
+yum install pip
+
+TO INSTALL SELENIUM FOR PYTHON:
+pip install selenium
+
+TO RUN SELENIUM TEST HEADLESS
+pip install pyvirtualdisplay
+
+TO RUN PYTHON IN VIRTUAL ENVIROMENT
+pip install virtualenv
+
+
+TO START VIRTUAL ENVIROMENT:
+virtualenv MYENVIROMENT
+cd ./MYENVIROMENT/bin/activate
+
+NOW YOU ARE IN VIRTUAL ENVIROMENT OF PYTHON RUN ANYTHING IN IT
+FOR HEADLESS CODE CHECK THE TEST.py file
